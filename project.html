@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Website menu 06</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script>
+		nonce="510c5d8d-6c78-4a83-8205-c6bf9fe75acc">(function (w, d) { !function (eK, eL, eM, eN) { eK.zarazData = eK.zarazData || {}; eK.zarazData.executed = []; eK.zaraz = { deferred: [], listeners: [] }; eK.zaraz.q = []; eK.zaraz._f = function (eO) { return function () { var eP = Array.prototype.slice.call(arguments); eK.zaraz.q.push({ m: eO, a: eP }) } }; for (const eQ of ["track", "set", "debug"]) eK.zaraz[eQ] = eK.zaraz._f(eQ); eK.zaraz.init = () => { var eR = eL.getElementsByTagName(eN)[0], eS = eL.createElement(eN), eT = eL.getElementsByTagName("title")[0]; eT && (eK.zarazData.t = eL.getElementsByTagName("title")[0].text); eK.zarazData.x = Math.random(); eK.zarazData.w = eK.screen.width; eK.zarazData.h = eK.screen.height; eK.zarazData.j = eK.innerHeight; eK.zarazData.e = eK.innerWidth; eK.zarazData.l = eK.location.href; eK.zarazData.r = eL.referrer; eK.zarazData.k = eK.screen.colorDepth; eK.zarazData.n = eL.characterSet; eK.zarazData.o = (new Date).getTimezoneOffset(); if (eK.dataLayer) for (const eX of Object.entries(Object.entries(dataLayer).reduce(((eY, eZ) => ({ ...eY[1], ...eZ[1] }))))) zaraz.set(eX[0], eX[1], { scope: "page" }); eK.zarazData.q = []; for (; eK.zaraz.q.length;) { const e_ = eK.zaraz.q.shift(); eK.zarazData.q.push(e_) } eS.defer = !0; for (const fa of [localStorage, sessionStorage]) Object.keys(fa || {}).filter((fc => fc.startsWith("_zaraz_"))).forEach((fb => { try { eK.zarazData["z_" + fb.slice(7)] = JSON.parse(fa.getItem(fb)) } catch { eK.zarazData["z_" + fb.slice(7)] = fa.getItem(fb) } })); eS.referrerPolicy = "origin"; eS.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(eK.zarazData))); eR.parentNode.insertBefore(eS, eR) };["complete", "interactive"].includes(eL.readyState) ? zaraz.init() : eK.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
+</head>
+
+<body>
+	<section class="ftco-section">
+		
+		<div class="wrap">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col">
+						<p class="mb-0 phone"><span class="fa fa-phone"></span> <a href="#">+00 1234 567</a></p>
+					</div>
+					<div class="col d-flex justify-content-end">
+						<div class="social-media">
+							<p class="mb-0 d-flex">
+								<a href="#" class="d-flex align-items-center justify-content-center"><span
+										class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span
+										class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span
+										class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+								<a href="#" class="d-flex align-items-center justify-content-center"><span
+										class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Papermag <span>Magazine</span></a>
+				<form action="#" class="searchform order-sm-start order-lg-last">
+					<div class="form-group d-flex">
+						<input type="text" class="form-control pl-3" placeholder="Search">
+						<button type="submit" placeholder="" class="form-control search"><span
+								class="fa fa-search"></span></button>
+					</div>
+				</form>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+					aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span> Menu
+				</button>
+				<div class="collapse navbar-collapse" id="ftco-nav">
+					<ul class="navbar-nav m-auto">
+						<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">Page</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown04">
+								<a class="dropdown-item" href="#">Page 1</a>
+								<a class="dropdown-item" href="#">Page 2</a>
+								<a class="dropdown-item" href="#">Page 3</a>
+								<a class="dropdown-item" href="#">Page 4</a>
+							</div>
+						</li>
+						<li class="nav-item"><a href="#" class="nav-link">Catalog</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script defer
+		src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
+		integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
+		data-cf-beacon='{"rayId":"7873e47e189104d2","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
